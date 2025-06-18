@@ -2,6 +2,13 @@
   "name": "web",
   "private": true,
   "version": "0.1.0",
+  "description": "Frontend web app for Visual Beats. Lets users connect music and AI providers, and view synchronized visualizations.",
+  "author": "Erik <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/visual-beats"
+  },
   "main": "index.js",
   "dependencies": {
     "@types/node": "^24.0.3",

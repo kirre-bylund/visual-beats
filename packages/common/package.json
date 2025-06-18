@@ -2,5 +2,11 @@
   "name": "common",
   "private": true,
   "version": "0.1.0",
-  "main": "index.js"
+  "description": "Shared utilities and types for Visual Beats.",
+  "author": "Erik <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/visual-beats"
+  }
 }

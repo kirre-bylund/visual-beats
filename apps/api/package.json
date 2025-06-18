@@ -2,6 +2,13 @@
   "name": "api",
   "private": true,
   "version": "0.1.0",
+  "description": "Backend API for Visual Beats. Provides music analysis, AI integration, and user management.",
+  "author": "Erik <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/visual-beats"
+  },
   "main": "index.js",
   "dependencies": {
     "@types/express": "^5.0.3",
