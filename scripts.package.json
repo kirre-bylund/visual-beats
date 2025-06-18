@@ -1,0 +1,10 @@
+{
+  "name": "synced-slideshow-root-scripts",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace api dev & yarn workspace web dev",
+    "lint": "yarn workspaces foreach --all run lint",
+    "format": "yarn workspaces foreach --all run format",
+    "format:write": "yarn workspaces foreach --all run format:write"
+  }
+}
