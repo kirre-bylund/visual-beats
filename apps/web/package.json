@@ -9,8 +9,7 @@
     "type": "git",
     "url": "https://github.com/yourusername/visual-beats"
   },
-  "main": "index.js",
-  "dependencies": {
+  "main": "index.js",  "dependencies": {
     "@types/node": "^24.0.3",
     "@types/react": "^19.1.8",
     "next": "^15.3.3",
@@ -18,11 +17,14 @@
     "react-dom": "^19.1.0",
     "typescript": "^5.8.3"
   },
-  "scripts": {
+  "devDependencies": {
+    "eslint": "^9.29.0",
+    "eslint-config-next": "^15.3.3"
+  },"scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ../../apps/web --ext .ts,.tsx,.js,.jsx",
+    "lint": "next lint",
     "format": "prettier --check .",
     "format:write": "prettier --write ."
   }
