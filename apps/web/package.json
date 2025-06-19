@@ -22,7 +22,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "lint": "eslint ../../apps/web --ext .ts,.tsx,.js,.jsx",
     "format": "prettier --check .",
     "format:write": "prettier --write ."
   }
